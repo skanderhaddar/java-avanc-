@@ -42,10 +42,12 @@ public Addrwonumber() {
 	}
 	private void Addfourpaneltoframe() {
 		p1 = new Panel() ;
-		f1.add(p1) ; 
 		p1.add(l1) ; 
 		p1.add(t1);
-		p1.setVisible(true);
+		p1.add(t2) ;
+		f1.add(p1) ; 
+		f1.setVisible(true);
+
 
 	}
 
